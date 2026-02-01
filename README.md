@@ -1,22 +1,24 @@
-How to Run the Chat Application
+## How to Run the Chat Application
 
-1. Open terminal and compile the files:
+**1. Open a terminal and compile the files:**
 
-g++ server.cpp -lpthread -o server
-g++ client.cpp -lpthread -o client
+g++ server.cpp -lpthread -o server  
+g++ client.cpp -lpthread -o client  
 
+**2. Go to the project directory:**
 
-2. Go to the project folder/Directory
-3. Start the server
-   .\server
+**3. Start the server:**
 
-4. Open a new terminal, go to the same folder, and start the client:
-   .\client
+.\server  
 
-6. To run multiple clients, open more terminals and run:.\client
+**4. Open a new terminal, go to the same directory, and start the client:**
 
+.\client  
 
-Note:
-Start the server first
-Each client runs in a separate terminal
+**5. To run multiple clients, open more terminals and run:**
 
+.\client  
+
+**Note:**  
+- Start the server first.  
+- Each client runs in a separate terminal.
